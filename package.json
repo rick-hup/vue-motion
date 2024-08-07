@@ -1,0 +1,25 @@
+{
+  "name": "vue-motion",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.27.3",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "eslint": "^9.9.1",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9",
+    "typescript": "^5.5.4"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  }
+}
