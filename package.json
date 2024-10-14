@@ -10,10 +10,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
+  "dependencies": {
+    "framer-motion": "^11.9.0",
+    "hey-listen": "^1.0.8",
+    "vite": "^5.4.8",
+    "vue": "^3.4.38"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^2.27.3",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
+    "@vue/tsconfig": "^0.5.1",
     "eslint": "^9.9.1",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
